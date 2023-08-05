@@ -70,9 +70,7 @@ def commands_parser(string: str):
 
 
 # @input_error
-# def parser_str(string: str): # треба перевірити, щоб 3 елемент був числовий (для додавання та заміни)
-#                              # + чи є другий в словнику при заміні та поверненні даних (фоун)
-#                              # Подивитись, щоб інше введення не було (помилка)
+# def parser_str(string: str):
 #     work_list = string.lower().split(' ')
 #     if work_list[0] == "hello":
 #         return hello_handler()
